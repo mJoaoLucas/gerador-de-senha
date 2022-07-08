@@ -1,0 +1,10 @@
+pegar o rolador
+pegar o botao
+pegar o numero q vai aparecer
+pegar a senha
+pegar o container q vai aparecer a senha
+
+
+criar uma variavel com todas as letras do alfabeto minusculo, maiusculo, numeros de 1 a 9, e pontos.
+
+criar uma variavel para nova senha = vaiza

@@ -43,8 +43,6 @@ function copiarpass() {
 }
 
 function toque() {
-    if (toque == true) {
         navigator.clipboard.writeText(novasenha)
         alert("Senha copiada com sucesso!")
-    } 
 }

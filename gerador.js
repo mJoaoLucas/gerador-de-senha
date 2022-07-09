@@ -39,10 +39,8 @@ function gerarsenha() {
 function copiarpass() {
     navigator.clipboard.writeText(novasenha)
     alert("Senha copiada com sucesso!")
-
 }
 
 function toque() {
         navigator.clipboard.writeText(novasenha)
-        
 }

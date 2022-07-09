@@ -44,5 +44,5 @@ function copiarpass() {
 
 function toque() {
         navigator.clipboard.writeText(novasenha)
-        alert("Senha copiada com sucesso!")
+        
 }

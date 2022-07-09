@@ -8,7 +8,7 @@ let elementorolador = document.querySelector("#rolador")
 let botao = document.querySelector("#botao")
 let numpass = document.querySelector("#valor")
 let senha = document.querySelector("#senha")
-let contpass = document.querySelector("#container-senha")
+let contpass = document.querySelector("#container-senha").addEventListener('touchstart', toque)
 
 //definindo os caracteres q vai entrar a senha
 let caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&"
@@ -40,4 +40,11 @@ function copiarpass() {
     navigator.clipboard.writeText(novasenha)
     alert("Senha copiada com sucesso!")
 
+}
+
+function toque() {
+    if (toque == true) {
+        navigator.clipboard.writeText(novasenha)
+        alert("Senha copiada com sucesso!")
+    } 
 }
